@@ -17,4 +17,12 @@ parts:
     stage-packages:
       - certbot
       - python3-certbot-dns-cloudflare
+      - python3-certbot-dns-digitalocean
+      - python3-certbot-dns-dnsimple
+      - python3-certbot-dns-gehirn
       - python3-certbot-dns-google
+      - python3-certbot-dns-linode
+      - python3-certbot-dns-ovh
+      - python3-certbot-dns-rfc2136
+      - python3-certbot-dns-route53
+      - python3-certbot-dns-sakuracloud
