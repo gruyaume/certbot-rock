@@ -5,6 +5,6 @@
 
 ```bash
 rockcraft pack -v
-sudo skopeo --insecure-policy copy oci-archive:certbot_1.6.0_amd64.rock docker-daemon:certbot:1.6
-docker run certbot:1.6
+sudo skopeo --insecure-policy copy oci-archive:certbot_0.27.0_amd64.rock docker-daemon:certbot:0.27.0
+docker run certbot:0.27.0
 ```
