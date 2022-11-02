@@ -1,0 +1,20 @@
+name: certbot
+summary: Certbot
+description: |
+  Certbot with dns plugins
+version: "0.27.0"
+license: Apache-2.0
+base: ubuntu:20.04
+platforms:
+  amd64:
+
+cmd: ["/usr/bin/certbot"]
+
+parts:
+
+  certbot:
+    plugin: nil
+    stage-packages:
+      - certbot
+      - python3-certbot-dns-cloudflare
+      - python3-certbot-dns-google
